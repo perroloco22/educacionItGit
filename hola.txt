@@ -56,7 +56,8 @@ En el siguiente ejemplo tenemos 3 branch y queremos eliminar el branch PrimerBra
 
 
 **** Actualizar repo remoto con nuevo branch ****
-git push --set-upstream nameBranchMain nameBranchNew
+git push --set-upstream aliasRepo nameBranchNew
+git push --set-upstream origin testBranchSecond
 
 **** Para actualizar el repo local con los cambios que se hicieron en el repo remoto ****
 git fetch aliasRemoto
