@@ -44,3 +44,8 @@ git push --set-upstream nameBranchMain nameBranchNew
 
 **** Para actualizar el repo local con los cambios que se hicieron en el repo remoto ****
 git fetch aliasRemoto
+
+**** Siempre que se actualizar los commit del branch que hay en el repo remoto y que no hay en el repo local ****
+git checkout branchUpdate
+git fetch
+git pull
