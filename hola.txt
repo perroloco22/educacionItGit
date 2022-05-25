@@ -13,7 +13,9 @@ git commit -m 'nombreParaIdentificarElCambio'
 --------------------------------------
 
 **** Comando para cambiar el  nombre del mensaje del ultimo commit ****
-git commit --amend
+>>> git commit --amend
+aparece una interfaz interactiva borramos el nombre del ultimo commit y tipeamos el nuevo, apretamos escape y tipeamos ':x!', enter y finalizamos
+
 
 **** Reportes de commit (historial) ****
 git log
