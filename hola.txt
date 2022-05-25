@@ -30,6 +30,9 @@ git remote -v
 **** Para clonar repo ****
 git clone https://github.com/perroloco22/educacionItGit.git 'nameFolderNew'
 
+**** Para ver mis branch ****
+git branch
+
 **** Crear branch ****
 git branch nameNewBranch
 
