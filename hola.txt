@@ -26,3 +26,6 @@ git push -u origin main
 
 para ver mis repos remotos
 git remote -v
+
+para clonar repo
+git clone https://github.com/perroloco22/educacionItGit.git 'nameFolderNew'
