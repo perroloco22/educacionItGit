@@ -12,20 +12,32 @@ git commit -m 'nombreParaIdentificarElCambio'
 
 --------------------------------------
 
-comando para cambiar el  nombre del mensaje del ultimo commit
+**** Comando para cambiar el  nombre del mensaje del ultimo commit ****
 git commit --amend
 
-reportes de commit (historial)
+**** Reportes de commit (historial) ****
 git log
 
--pasos para subir mi repo a github 
+**** Pasos para subir mi repo a github ****
 
-git remote add origin https://github.com/perroloco22/educacionit.git
+git remote add aliasRemoto https://github.com/perroloco22/educacionit.git
 git branch -M main
 git push -u origin main
 
-para ver mis repos remotos
+**** Para ver mis repos remotos ****
 git remote -v
 
-para clonar repo
+**** Para clonar repo ****
 git clone https://github.com/perroloco22/educacionItGit.git 'nameFolderNew'
+
+**** Crear branch ****
+git branch nameNewBranch
+
+**** Moverme de branch ****
+git checkout nameBranch
+
+**** Actualizar repo remoto con nuevo branch ****
+git push --set-upstream nameBranchMain nameBranchNew
+
+**** Para actualizar el repo local con los cambios que se hicieron en el repo remoto ****
+git fetch aliasRemoto
