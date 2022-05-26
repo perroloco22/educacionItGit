@@ -1,5 +1,3 @@
-Linea 01, cambio conflict
+Linea 01, cambio conflict, cambio desde branch second
 
-Linea 02, cambio conflict 
-
-Linea 03, cambio conflict 
+Linea 02, cambio conflict, cambio desde branch second
