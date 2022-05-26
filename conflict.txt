@@ -1,3 +1,6 @@
-Linea 01, cambio conflict, cambio desde branch second
+Linea 01, cambio conflict, cambio desde branch second, cambio desde el branch tesBRANCHSecond|MERGING
 
 Linea 02, cambio conflict, cambio desde branch second
+
+Linea 03, cambio conflict, cambio desde main
+
